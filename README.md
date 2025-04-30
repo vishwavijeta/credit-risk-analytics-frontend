@@ -35,7 +35,7 @@ A full-featured responsive credit risk dashboard built using **React**, **TypeSc
 ### 🖥️ Frontend
 ```bash
 # Clone and install
-cd kyc-frontend
+cd credit-risk-analytics-frontend
 npm install
 
 # Run dev server
@@ -46,12 +46,12 @@ Frontend will run at: `http://localhost:5173`
 
 ### 🗃️ Backend
 ```bash
-cd backend
+cd credit-risk-analytics-backend
 npm install
 node server.js
 ```
 
-Backend API: `http://localhost:5000/api/customers`
+Backend API: `http://localhost:5005/api/customers`
 
 ---
 
@@ -68,16 +68,6 @@ Backend API: `http://localhost:5000/api/customers`
 High-risk customers trigger alert via backend POST.
 
 ---
-
-## 🧪 Run Tests
-```bash
-npm run test
-```
-Uses Vitest + React Testing Library for dashboard components.
-
----
-
-## 🌐 Deployment (Optional)
 
 ### 🔹 Frontend on Vercel
 ```bash
